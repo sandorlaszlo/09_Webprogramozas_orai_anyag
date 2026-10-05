@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felsorolás, számozás</title>
+    <style>
+        ul {
+            list-style-type: square;
+        }
+
+        .majom {
+            list-style-image: url('images/kismajom.jpg');
+        }
+    </style>
+</head>
+<body>
+    <h1>Felsorolás, számozás</h1>
+    <h2>Névsor</h2>
+    <!-- Ctrl+K+C - komment -->
+    <!-- ordered list -->
+    <ol>
+        <li>Pisti</li>
+        <li>Jani</li>
+        <li>Gizi</li>
+        <li>Eszti</li>
+    </ol>
+
+     <ol type="a">
+        <li>Pisti</li>
+        <li>Jani</li>
+        <li>Gizi</li>
+        <li>Eszti</li>
+    </ol>
+
+    <ol type="I">
+        <li>Pisti</li>
+        <li>Jani</li>
+        <li>Gizi</li>
+        <li>Eszti</li>
+    </ol>
+
+    <!-- unordered list -->
+     <!-- ul>li*5 -->
+      <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+      </ul>
+
+      <!-- ul>li*5>lorem5 -->
+       <ul class="majom">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Harum sint iure labore incidunt?</li>
+        <li>Est deleniti eaque ea corporis!</li>
+        <li>Vero nulla nesciunt nemo nam?</li>
+        <li>Quasi expedita voluptas voluptatum delectus.</li>
+       </ul>
+
+       <h2>Egymásba ágyazás</h2>
+       <ul>
+        <li>Kávé</li>
+        <li>Tea
+            <ul>
+                <li>fekete tea</li>
+                <li>zöld tea</li>
+            </ul>
+        </li>
+        <li>Tej</li>
+       </ul>
+
+       <!-- Lorem5*10 -->
+        <p>Ha kész szöveget kell átalakiítani felsorolássá, akkor a lépések:</p>
+        <ol>
+            <li>Kijelöl</li>
+            <li>F1</li>
+            <li>Wrap with abbrev...</li>
+            <li>ul>li*</li>
+            <li>Enter</li>
+        </ol>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Odit officia doloremque vero cupiditate!</li>
+            <li>Consequuntur impedit similique doloremque numquam!</li>
+            <li>Quos nostrum numquam eaque at.</li>
+            <li>Officia ducimus consequatur voluptate sequi.</li>
+            <li>Pariatur qui odit minus consectetur!</li>
+            <li>Fugit voluptatem quo quisquam perspiciatis!</li>
+            <li>Quaerat sint doloremque maxime recusandae?</li>
+            <li>Nobis dolorem rerum corporis labore.</li>
+            <li>Necessitatibus cum ad quo distinctio!</li>
+        </ul>
+</body>
+</html>
