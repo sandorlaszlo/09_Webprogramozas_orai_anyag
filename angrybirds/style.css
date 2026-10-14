@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tartalom {
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url("Hatter.png");
+    background-repeat: repeat-y;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.kiemelt {
+    color: blue;
+    font-style: italic;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.fontos {
+    color: red;
+    font-weight: bold;
+}
+
+table, td {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    background-color: #CCCCCC;
+    padding: 5px;
+}
