@@ -1,0 +1,39 @@
+body {
+    background-image: url("hatter.png");
+}
+
+h1, h2 {
+    color: orange;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    list-style-image: url("bogyo.png");
+}
+
+.bevezeto {
+    background-color: lightgray;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.bevezeto img {
+    width: 480px;
+    border: 2px solid orange;
+    display: block;
+    margin: auto;
+}
+
+.bevezeto p {
+    font-style: italic;
+}
